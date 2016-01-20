@@ -1,6 +1,9 @@
 {
   "name": "json5-validator",
-  "private": true,
+  "description": "Validate JSON5 on the command line",
+  "version": "0.1.0",
+  "repository": "artcom/json5-validator",
+  "license": "MIT",
   "bin": {
     "json5-validator": "json5-validator.js"
   },
