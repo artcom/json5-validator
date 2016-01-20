@@ -1,0 +1,17 @@
+{
+  "name": "json5-validator",
+  "private": true,
+  "bin": {
+    "json5-validator": "json5-validator.js"
+  },
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "docopt": "^0.6.2",
+    "flatten": "^1.0.2",
+    "glob": "^6.0.4",
+    "json5": "^0.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3"
+  }
+}
