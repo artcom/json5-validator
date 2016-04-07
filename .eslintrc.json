@@ -1,0 +1,6 @@
+{
+  "extends": "artcom",
+  "rules": {
+    "no-console": "off"
+  }
+}

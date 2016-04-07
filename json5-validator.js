@@ -42,15 +42,14 @@ function listFiles(path) {
 }
 
 function collectErrors(predicate) {
-  return function(errors, item) {
-    return predicate(item)
+  return (errors, item) =>
+    predicate(item)
       .then(() => errors)
       .catch((error) => [error, ...errors])
-  }
 }
 
 function validate(file) {
-  return readFileAsync(file).then(function(buffer) {
+  return readFileAsync(file).then((buffer) => {
     try {
       JSON5.parse(buffer)
     } catch (error) {
