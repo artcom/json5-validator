@@ -5,9 +5,7 @@ Validate JSON5 on the command line
 # Usage
 
 ```bash
-# print usage
-$ json5-validator
-
-# validate some files
-$ json5-validator some/path some/file.json
+# pipe data into the validator to validate, e.g.:
+$ echo true | json5-validator
+$ cat file.json | json5-validator
 ```

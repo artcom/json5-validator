@@ -8,10 +8,7 @@
     "json5-validator": "json5-validator.js"
   },
   "dependencies": {
-    "bluebird": "^3.1.1",
-    "docopt": "^0.6.2",
-    "flatten": "^1.0.2",
-    "glob": "^6.0.4",
+    "concat-stream": "^1.5.1",
     "json5": "^0.4.0"
   },
   "devDependencies": {
